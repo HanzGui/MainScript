@@ -523,7 +523,7 @@ end)
 
 
 OpenLocalPlayer.MouseButton2Click:Connect(function()
-LocalPlayer.Visible = false
+        LocalPlayer.Visible = false
 end)
 
 

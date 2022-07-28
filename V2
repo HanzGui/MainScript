@@ -522,7 +522,9 @@ OpenLocalPlayer.MouseButton1Click:Connect(function()
 end)
 
 
-
+OpenLocalPlayer.MouseButton2Click:Connect(function()
+LocalPlayer.Visible = false
+end)
 
 
 

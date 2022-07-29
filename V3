@@ -1,0 +1,613 @@
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local EnterGUI = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local EnterHanzV3 = Instance.new("TextLabel")
+local UICorner_2 = Instance.new("UICorner")
+local EnterButton = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local MainGUI = Instance.new("Frame")
+local UICorner_4 = Instance.new("UICorner")
+local OpenLocalPlayer = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local OpenCredits = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local OpenInfo = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local CoolButton = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local Funny = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local FlidarButton = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local NO = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local CoolerButton = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local Funnier = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
+local SubTheDubMode = Instance.new("TextButton")
+local UICorner_14 = Instance.new("UICorner")
+local EvenNicer = Instance.new("TextButton")
+local UICorner_15 = Instance.new("UICorner")
+local Nice = Instance.new("TextButton")
+local UICorner_16 = Instance.new("UICorner")
+local LocalPlayer = Instance.new("Frame")
+local UICorner_17 = Instance.new("UICorner")
+local Speed1225 = Instance.new("TextButton")
+local UICorner_18 = Instance.new("UICorner")
+local Speed2450 = Instance.new("TextButton")
+local UICorner_19 = Instance.new("UICorner")
+local WS16 = Instance.new("TextButton")
+local UICorner_20 = Instance.new("UICorner")
+local NoGravity = Instance.new("TextButton")
+local UICorner_21 = Instance.new("UICorner")
+local SuperLowGravity = Instance.new("TextButton")
+local UICorner_22 = Instance.new("UICorner")
+local LowGravity = Instance.new("TextButton")
+local UICorner_23 = Instance.new("UICorner")
+local WS40 = Instance.new("TextButton")
+local UICorner_24 = Instance.new("UICorner")
+local NormalGravity = Instance.new("TextButton")
+local UICorner_25 = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local UICorner_26 = Instance.new("UICorner")
+local UICorner_27 = Instance.new("UICorner")
+local flidar3Mode = Instance.new("Frame")
+local Credits = Instance.new("Frame")
+local UICorner_28 = Instance.new("UICorner")
+local TextLabel_2 = Instance.new("TextLabel")
+local Exit = Instance.new("TextButton")
+local Info = Instance.new("Frame")
+local UICorner_29 = Instance.new("UICorner")
+local HWID = Instance.new("TextLabel")
+local Exit2 = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+EnterGUI.Name = "EnterGUI"
+EnterGUI.Parent = ScreenGui
+EnterGUI.BackgroundColor3 = Color3.fromRGB(250, 187, 255)
+EnterGUI.Position = UDim2.new(0.438787878, 0, 0.271659315, 0)
+EnterGUI.Size = UDim2.new(0.127272725, 0, 0.425844342, 0)
+
+UICorner.Parent = EnterGUI
+
+EnterHanzV3.Name = "EnterHanzV3"
+EnterHanzV3.Parent = EnterGUI
+EnterHanzV3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+EnterHanzV3.Position = UDim2.new(0.0238095243, 0, 0.068965517, 0)
+EnterHanzV3.Size = UDim2.new(0.952380955, 0, 0.172413796, 0)
+EnterHanzV3.Font = Enum.Font.SciFi
+EnterHanzV3.Text = "Hanz V3"
+EnterHanzV3.TextColor3 = Color3.fromRGB(0, 0, 0)
+EnterHanzV3.TextScaled = true
+EnterHanzV3.TextSize = 14.000
+EnterHanzV3.TextWrapped = true
+
+UICorner_2.Parent = EnterHanzV3
+
+EnterButton.Name = "EnterButton"
+EnterButton.Parent = EnterGUI
+EnterButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+EnterButton.Position = UDim2.new(0.0238095243, 0, 0.758620679, 0)
+EnterButton.Size = UDim2.new(0.952380955, 0, 0.172413796, 0)
+EnterButton.Font = Enum.Font.SciFi
+EnterButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+EnterButton.TextScaled = true
+EnterButton.TextSize = 14.000
+EnterButton.TextWrapped = true
+EnterButton.Text = "Enter Hanz"
+
+UICorner_3.Parent = EnterButton
+
+MainGUI.Name = "MainGUI"
+MainGUI.Parent = ScreenGui
+MainGUI.BackgroundColor3 = Color3.fromRGB(250, 187, 255)
+MainGUI.Position = UDim2.new(0.0303030312, 0, 0.162995592, 0)
+MainGUI.Size = UDim2.new(0.209696963, 0, 0.616740108, 0)
+MainGUI.Visible = false
+
+UICorner_4.Parent = MainGUI
+
+OpenLocalPlayer.Name = "OpenLocalPlayer"
+OpenLocalPlayer.Parent = MainGUI
+OpenLocalPlayer.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+OpenLocalPlayer.Position = UDim2.new(0.032352943, 0, 0.0261904765, 0)
+OpenLocalPlayer.Size = UDim2.new(0.462427735, 0, 0.119047619, 0)
+OpenLocalPlayer.Font = Enum.Font.SciFi
+OpenLocalPlayer.Text = "Open Local Player"
+OpenLocalPlayer.TextColor3 = Color3.fromRGB(0, 0, 0)
+OpenLocalPlayer.TextScaled = true
+OpenLocalPlayer.TextSize = 14.000
+OpenLocalPlayer.TextWrapped = true
+
+UICorner_5.Parent = OpenLocalPlayer
+
+OpenCredits.Name = "OpenCredits"
+OpenCredits.Parent = MainGUI
+OpenCredits.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+OpenCredits.Position = UDim2.new(0.032352943, 0, 0.169047624, 0)
+OpenCredits.Size = UDim2.new(0.462427735, 0, 0.119047619, 0)
+OpenCredits.Font = Enum.Font.SciFi
+OpenCredits.Text = "Open Credits"
+OpenCredits.TextColor3 = Color3.fromRGB(0, 0, 0)
+OpenCredits.TextScaled = true
+OpenCredits.TextSize = 14.000
+OpenCredits.TextWrapped = true
+
+UICorner_6.Parent = OpenCredits
+
+OpenInfo.Name = "OpenInfo"
+OpenInfo.Parent = MainGUI
+OpenInfo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+OpenInfo.Position = UDim2.new(0.032352943, 0, 0.309523851, 0)
+OpenInfo.Size = UDim2.new(0.462427735, 0, 0.119047619, 0)
+OpenInfo.Font = Enum.Font.SciFi
+OpenInfo.Text = "Open Info"
+OpenInfo.TextColor3 = Color3.fromRGB(0, 0, 0)
+OpenInfo.TextScaled = true
+OpenInfo.TextSize = 14.000
+OpenInfo.TextWrapped = true
+
+UICorner_7.Parent = OpenInfo
+
+CoolButton.Name = "CoolButton"
+CoolButton.Parent = MainGUI
+CoolButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CoolButton.Position = UDim2.new(0.032352943, 0, 0.852380991, 0)
+CoolButton.Size = UDim2.new(0.462427735, 0, 0.119047619, 0)
+CoolButton.Font = Enum.Font.SciFi
+CoolButton.Text = "The cool button 😎"
+CoolButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+CoolButton.TextScaled = true
+CoolButton.TextSize = 14.000
+CoolButton.TextWrapped = true
+
+UICorner_8.Parent = CoolButton
+
+Funny.Name = "Funny"
+Funny.Parent = MainGUI
+Funny.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Funny.Position = UDim2.new(0.032352943, 0, 0.711904764, 0)
+Funny.Size = UDim2.new(0.462427735, 0, 0.119047619, 0)
+Funny.Font = Enum.Font.SciFi
+Funny.Text = "Hehe, funny button 🥳"
+Funny.TextColor3 = Color3.fromRGB(0, 0, 0)
+Funny.TextScaled = true
+Funny.TextSize = 14.000
+Funny.TextWrapped = true
+
+UICorner_9.Parent = Funny
+
+FlidarButton.Name = "FlidarButton"
+FlidarButton.Parent = MainGUI
+FlidarButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+FlidarButton.Position = UDim2.new(0.032352943, 0, 0.566666722, 0)
+FlidarButton.Size = UDim2.new(0.462427735, 0, 0.119047619, 0)
+FlidarButton.Font = Enum.Font.SciFi
+FlidarButton.Text = "Flidar3 mode"
+FlidarButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+FlidarButton.TextScaled = true
+FlidarButton.TextSize = 14.000
+FlidarButton.TextWrapped = true
+
+UICorner_10.Parent = FlidarButton
+
+NO.Name = "NO"
+NO.Parent = MainGUI
+NO.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+NO.Position = UDim2.new(0.502941191, 0, 0.566666722, 0)
+NO.Size = UDim2.new(0.462427735, 0, 0.119047619, 0)
+NO.Font = Enum.Font.SciFi
+NO.Text = "N O"
+NO.TextColor3 = Color3.fromRGB(0, 0, 0)
+NO.TextScaled = true
+NO.TextSize = 14.000
+NO.TextWrapped = true
+
+UICorner_11.Parent = NO
+
+CoolerButton.Name = "CoolerButton"
+CoolerButton.Parent = MainGUI
+CoolerButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CoolerButton.Position = UDim2.new(0.502941191, 0, 0.852380991, 0)
+CoolerButton.Size = UDim2.new(0.462427735, 0, 0.119047619, 0)
+CoolerButton.Font = Enum.Font.SciFi
+CoolerButton.Text = "The cooler button 😎😎"
+CoolerButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+CoolerButton.TextScaled = true
+CoolerButton.TextSize = 14.000
+CoolerButton.TextWrapped = true
+
+UICorner_12.Parent = CoolerButton
+
+Funnier.Name = "Funnier"
+Funnier.Parent = MainGUI
+Funnier.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Funnier.Position = UDim2.new(0.502941191, 0, 0.711904764, 0)
+Funnier.Size = UDim2.new(0.462427735, 0, 0.119047619, 0)
+Funnier.Font = Enum.Font.SciFi
+Funnier.Text = "Hehe, funnier button 🥳"
+Funnier.TextColor3 = Color3.fromRGB(0, 0, 0)
+Funnier.TextScaled = true
+Funnier.TextSize = 14.000
+Funnier.TextWrapped = true
+
+UICorner_13.Parent = Funnier
+
+SubTheDubMode.Name = "SubTheDubMode"
+SubTheDubMode.Parent = MainGUI
+SubTheDubMode.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SubTheDubMode.Position = UDim2.new(0.502941191, 0, 0.309523851, 0)
+SubTheDubMode.Size = UDim2.new(0.462427735, 0, 0.119047619, 0)
+SubTheDubMode.Font = Enum.Font.SciFi
+SubTheDubMode.Text = "Activate SubTheDub 😎"
+SubTheDubMode.TextColor3 = Color3.fromRGB(0, 0, 0)
+SubTheDubMode.TextScaled = true
+SubTheDubMode.TextSize = 14.000
+SubTheDubMode.TextWrapped = true
+
+UICorner_14.Parent = SubTheDubMode
+
+EvenNicer.Name = "EvenNicer"
+EvenNicer.Parent = MainGUI
+EvenNicer.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+EvenNicer.Position = UDim2.new(0.502941191, 0, 0.169047624, 0)
+EvenNicer.Size = UDim2.new(0.462427735, 0, 0.119047619, 0)
+EvenNicer.Font = Enum.Font.SciFi
+EvenNicer.Text = "Even nicer 👍"
+EvenNicer.TextColor3 = Color3.fromRGB(0, 0, 0)
+EvenNicer.TextScaled = true
+EvenNicer.TextSize = 14.000
+EvenNicer.TextWrapped = true
+
+UICorner_15.Parent = EvenNicer
+
+Nice.Name = "Nice"
+Nice.Parent = MainGUI
+Nice.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Nice.Position = UDim2.new(0.502941191, 0, 0.0261904765, 0)
+Nice.Size = UDim2.new(0.462427735, 0, 0.119047619, 0)
+Nice.Font = Enum.Font.SciFi
+Nice.Text = "Nice 👍"
+Nice.TextColor3 = Color3.fromRGB(0, 0, 0)
+Nice.TextScaled = true
+Nice.TextSize = 14.000
+Nice.TextWrapped = true
+
+UICorner_16.Parent = Nice
+
+LocalPlayer.Name = "LocalPlayer"
+LocalPlayer.Parent = ScreenGui
+LocalPlayer.BackgroundColor3 = Color3.fromRGB(250, 187, 255)
+LocalPlayer.Position = UDim2.new(0.788484752, 0, 0.0939794406, 0)
+LocalPlayer.Size = UDim2.new(0.193939388, 0, 0.812041104, 0)
+LocalPlayer.Visible = false
+
+UICorner_17.Parent = LocalPlayer
+
+Speed1225.Name = "Speed1225"
+Speed1225.Parent = LocalPlayer
+Speed1225.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Speed1225.Position = UDim2.new(0.0281249993, 0, 0.0361663662, 0)
+Speed1225.Size = UDim2.new(0.453125, 0, 0.0904159099, 0)
+Speed1225.Font = Enum.Font.SciFi
+Speed1225.Text = "Mach 1"
+Speed1225.TextColor3 = Color3.fromRGB(0, 0, 0)
+Speed1225.TextScaled = true
+Speed1225.TextSize = 14.000
+Speed1225.TextWrapped = true
+
+UICorner_18.Parent = Speed1225
+
+Speed2450.Name = "Speed2450\\n"
+Speed2450.Parent = LocalPlayer
+Speed2450.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Speed2450.Position = UDim2.new(0.0281249993, 0, 0.144665465, 0)
+Speed2450.Size = UDim2.new(0.453125, 0, 0.0904159099, 0)
+Speed2450.Font = Enum.Font.SciFi
+Speed2450.Text = "Mach 2"
+Speed2450.TextColor3 = Color3.fromRGB(0, 0, 0)
+Speed2450.TextScaled = true
+Speed2450.TextSize = 14.000
+Speed2450.TextWrapped = true
+
+UICorner_19.Parent = Speed2450
+
+WS16.Name = "WS16"
+WS16.Parent = LocalPlayer
+WS16.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+WS16.Position = UDim2.new(0.0281249993, 0, 0.36166364, 0)
+WS16.Size = UDim2.new(0.453125, 0, 0.0904159099, 0)
+WS16.Font = Enum.Font.SciFi
+WS16.Text = "WS 16"
+WS16.TextColor3 = Color3.fromRGB(0, 0, 0)
+WS16.TextScaled = true
+WS16.TextSize = 14.000
+WS16.TextWrapped = true
+
+UICorner_20.Parent = WS16
+
+NoGravity.Name = "NoGravity"
+NoGravity.Parent = LocalPlayer
+NoGravity.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+NoGravity.Position = UDim2.new(0.0281249993, 0, 0.475587666, 0)
+NoGravity.Size = UDim2.new(0.453125, 0, 0.0904159099, 0)
+NoGravity.Font = Enum.Font.SciFi
+NoGravity.Text = "No gravity"
+NoGravity.TextColor3 = Color3.fromRGB(0, 0, 0)
+NoGravity.TextScaled = true
+NoGravity.TextSize = 14.000
+NoGravity.TextWrapped = true
+
+UICorner_21.Parent = NoGravity
+
+SuperLowGravity.Name = "SuperLowGravity"
+SuperLowGravity.Parent = LocalPlayer
+SuperLowGravity.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SuperLowGravity.Position = UDim2.new(0.0281249993, 0, 0.584086776, 0)
+SuperLowGravity.Size = UDim2.new(0.453125, 0, 0.0904159099, 0)
+SuperLowGravity.Font = Enum.Font.SciFi
+SuperLowGravity.Text = "Super Low Gravity"
+SuperLowGravity.TextColor3 = Color3.fromRGB(0, 0, 0)
+SuperLowGravity.TextScaled = true
+SuperLowGravity.TextSize = 14.000
+SuperLowGravity.TextWrapped = true
+
+UICorner_22.Parent = SuperLowGravity
+
+LowGravity.Name = "LowGravity"
+LowGravity.Parent = LocalPlayer
+LowGravity.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+LowGravity.Position = UDim2.new(0.0281249993, 0, 0.692585886, 0)
+LowGravity.Size = UDim2.new(0.453125, 0, 0.0904159099, 0)
+LowGravity.Font = Enum.Font.SciFi
+LowGravity.Text = "Low Gravity"
+LowGravity.TextColor3 = Color3.fromRGB(0, 0, 0)
+LowGravity.TextScaled = true
+LowGravity.TextSize = 14.000
+LowGravity.TextWrapped = true
+
+UICorner_23.Parent = LowGravity
+
+WS40.Name = "WS40"
+WS40.Parent = LocalPlayer
+WS40.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+WS40.Position = UDim2.new(0.0281249993, 0, 0.25316456, 0)
+WS40.Size = UDim2.new(0.453125, 0, 0.0904159099, 0)
+WS40.Font = Enum.Font.SciFi
+WS40.Text = "WS 40"
+WS40.TextColor3 = Color3.fromRGB(0, 0, 0)
+WS40.TextScaled = true
+WS40.TextSize = 14.000
+WS40.TextWrapped = true
+
+UICorner_24.Parent = WS40
+
+NormalGravity.Name = "NormalGravity"
+NormalGravity.Parent = LocalPlayer
+NormalGravity.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+NormalGravity.Position = UDim2.new(0.0281249993, 0, 0.801084995, 0)
+NormalGravity.Size = UDim2.new(0.453125, 0, 0.0904159099, 0)
+NormalGravity.Font = Enum.Font.SciFi
+NormalGravity.Text = "Normal Gravity"
+NormalGravity.TextColor3 = Color3.fromRGB(0, 0, 0)
+NormalGravity.TextScaled = true
+NormalGravity.TextSize = 14.000
+NormalGravity.TextWrapped = true
+
+UICorner_25.Parent = NormalGravity
+
+TextLabel.Parent = LocalPlayer
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.Position = UDim2.new(0.1875, 0, 0.909584105, 0)
+TextLabel.Size = UDim2.new(0.625, 0, 0.0904159099, 0)
+TextLabel.Font = Enum.Font.SciFi
+TextLabel.Text = "Hanz V3"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+UICorner_26.Parent = TextLabel
+
+flidar3Mode.Name = "flidar3Mode"
+flidar3Mode.Parent = ScreenGui
+flidar3Mode.BackgroundColor3 = Color3.fromRGB(250, 187, 255)
+flidar3Mode.BackgroundTransparency = 0.550
+flidar3Mode.ClipsDescendants = true
+flidar3Mode.Size = UDim2.new(1, 0, 1, 0)
+flidar3Mode.Visible = false
+
+Credits.Name = "Credits"
+Credits.Parent = ScreenGui
+Credits.BackgroundColor3 = Color3.fromRGB(250, 187, 255)
+Credits.Position = UDim2.new(0.204848483, 0, 0.226138026, 0)
+Credits.Size = UDim2.new(0.158787876, 0, 0.346549183, 0)
+Credits.Visible = false
+
+UICorner_28.Parent = Credits
+
+TextLabel_2.Parent = Credits
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.Position = UDim2.new(0.179389313, 0, 0.398983061, 0)
+TextLabel_2.Size = UDim2.new(0.637404561, 0, 0.597457647, 0)
+TextLabel_2.Font = Enum.Font.SourceSansBold
+TextLabel_2.Text = "Made by TheBaconLawyer#8057"
+TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
+
+Exit.Name = "Exit"
+Exit.Parent = Credits
+Exit.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Exit.Position = UDim2.new(0.114503816, 0, 0.118644066, 0)
+Exit.Size = UDim2.new(0.763358772, 0, 0.211864412, 0)
+Exit.Font = Enum.Font.SourceSans
+Exit.Text = "Exit this damn credit menu"
+Exit.TextColor3 = Color3.fromRGB(0, 0, 0)
+Exit.TextSize = 14.000
+
+Info.Name = "Info"
+Info.Parent = ScreenGui
+Info.BackgroundColor3 = Color3.fromRGB(250, 187, 255)
+Info.Position = UDim2.new(0.578787863, 0, 0.284875184, 0)
+Info.Size = UDim2.new(0.203636363, 0, 0.428781211, 0)
+Info.Visible = false
+
+UICorner_29.Parent = Info
+
+HWID.Name = "HWID"
+HWID.Parent = Info
+HWID.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+HWID.Position = UDim2.new(0.151785716, 0, 0.393835604, 0)
+HWID.Size = UDim2.new(0.696428597, 0, 0.582191765, 0)
+HWID.Font = Enum.Font.SourceSans
+HWID.TextColor3 = Color3.fromRGB(0, 0, 0)
+HWID.TextSize = 14.000
+
+Exit2.Name = "Exit2"
+Exit2.Parent = Info
+Exit2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Exit2.Position = UDim2.new(0.202380955, 0, 0.0856164396, 0)
+Exit2.Size = UDim2.new(0.59523809, 0, 0.171232879, 0)
+Exit2.Font = Enum.Font.SourceSans
+Exit2.Text = "Exit this damn info"
+Exit2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Exit2.TextSize = 14.000
+
+
+--- Button codes ---
+
+EnterButton.MouseButton1Click:Connect(function()
+	MainGUI.Visible = true
+	EnterGUI.Visible = false
+end)
+
+OpenInfo.MouseButton1Click:Connect(function()
+	Info.Visible = true
+end)
+
+Exit2.MouseButton1Click:Connect(function()
+	Info.Visible = false
+end)
+
+OpenCredits.MouseButton1Click:Connect(function()
+	Credits.Visible = true
+end)
+
+Exit.MouseButton1Click:Connect(function()
+	Credits.Visible = false
+end)
+
+OpenLocalPlayer.MouseButton1Click:Connect(function()
+	LocalPlayer.Visible = true
+end)
+
+OpenLocalPlayer.MouseButton2Click:Connect(function()
+	LocalPlayer.Visible = false
+end)
+
+CoolButton.MouseButton1Click:Connect(function()
+	print("You are cool")
+end)
+
+CoolerButton.MouseButton1Click:Connect(function()
+	print("You are very cool")
+end)
+
+Funny.MouseButton1Click:Connect(function()
+	print("Don't press the funnier button!")
+end)
+
+Funnier.MouseButton1Click:Connect(function()
+	while true do
+		print("Lol dis funny")
+	end
+end)
+
+SubTheDubMode.MouseButton1Click:Connect(function()
+	game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 100000
+	game.Workspace.Gravity = 0
+end)
+
+NO.MouseButton1Click:Connect(function()
+	while true do
+		print("NO")
+		wait(0)
+	end
+end)
+
+Nice.MouseButton1Click:Connect(function()
+
+	local Pos = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+	local Rock = Instance.new("Part")
+	Rock.Parent = game.Workspace
+	Rock.Position = Pos
+
+end)
+
+EvenNicer.MouseButton1Click:Connect(function()
+	while true do
+		local Pos = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+		local Rock = Instance.new("Part")
+		Rock.Parent = game.Workspace
+		Rock.Position = Pos
+		wait(0.1)
+	end
+end)
+
+FlidarButton.MouseButton1Click:Connect(function()
+	flidar3Mode.Visible = true
+end)
+
+FlidarButton.MouseButton2Click:Connect(function()
+	flidar3Mode.Visible = false
+end)
+
+HWID.TextScaled = true
+HWID.Text = game:GetService("RbxAnalyticsService"):GetClientId()
+
+Speed1225.MouseButton1Click:Connect(function()
+	game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 1225
+end)
+
+Speed2450.MouseButton1Click:Connect(function()
+	game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 2450
+end)
+
+WS40.MouseButton1Click:Connect(function()
+	game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 40
+end)
+
+WS16.MouseButton1Click:Connect(function()
+	game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
+end)
+
+NoGravity.MouseButton1Click:Connect(function()
+	game.workspace.Gravity = 0
+end)
+
+SuperLowGravity.MouseButton1Click:Connect(function()
+	game.Workspace.Gravity = 50
+end)
+
+LowGravity.MouseButton1Click:Connect(function()
+	game.Workspace.Gravity = 100
+end)
+
+NormalGravity.MouseButton1Click:Connect(function()
+	game.Workspace.Gravity = 196.2
+end)
+
+MainGUI.Active = true
+MainGUI.Draggable = true
+
+LocalPlayer.Active = true
+LocalPlayer.Draggable = true
